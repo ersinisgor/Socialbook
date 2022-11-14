@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "poppins" sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
@@ -246,6 +246,8 @@ event a {
 
 /*  Main Content  */
 
+/*Story Section */
+
 .story-gallery {
     display: flex;
     justify-content: space-between;
@@ -306,4 +308,68 @@ event a {
     transform: translateX(-50%);
     border: 0;
     width: 35px;
+}
+
+/* Post Content */
+
+.write-post-container {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p {
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.user-profile small {
+    font-size: 12px;
+}
+
+.post-input-container {
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.post-input-container textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+
+.add-post-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-post-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.add-post-links a img {
+    width: 20px;
+    margin-right: 10px;
 }
