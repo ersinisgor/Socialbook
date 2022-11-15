@@ -23,14 +23,62 @@
                 <img src="img/search.png">
                 <input type="text" placeholder="Search">
             </div>
-            <div class="nav-user-icon online">
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
                 <img src="img/profile-pic.png">
+            </div>
+        </div>
+
+        <!----------settings-menu--------->
+
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile-pic.png" >
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png" >
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="img/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="img/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="img/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="img/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="img/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="img/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="img/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="img/arrow.png" width="10px"></a>
+                </div>
             </div>
         </div>
     </nav>
 
     <div class="container">
+
         <!----------left-sidebar--------->
+
         <div class="left-sidebar">
             <div class="imp-links">
                 <a href="#"><img src="img/news.png">Latest News</a>
@@ -48,7 +96,9 @@
                 <a href="#"><img src="img/shortcut-4.png">Website Experts</a>
             </div>
         </div>
+
         <!----------main-content--------->
+
         <div class="main-content">
             <div class="story-gallery">
                 <div class="story story1">
@@ -236,8 +286,11 @@
             </div>
 
             <button type="button" class="load-more-btn">Load More</button>
+
         </div>
+
         <!----------right-sidebar--------->
+
         <div class="right-sidebar">
             <div class="sidebar-title">
                 <h4>Events</h4>
@@ -294,7 +347,11 @@
             </div>
         </div>
     </div>
-    
 
+    <div class="footer">
+        <p>Copyright 2022 - Easy Tutorials Youtube Channel</p>
+    </div>
+    
+<script src="script.js"></script>
 </body>
 </html>
